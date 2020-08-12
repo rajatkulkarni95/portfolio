@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <title>Rajat Kulkarni | Front End Developer</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/Profile Picture.jpg" class="logo" />
+      <div class="menu">
+        <ul>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li class="resume">
+            <a href="./assets/Rajat's Resume.pdf" download>Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="hero" id="Hero">
+        <h2>Hey!</h2>
+        <h3>I'm <spanp class="name">Rajat Kulkarni</spanp></h3>
+        <p class="tagline">
+          Front End Developer
+          <span class="tagline__sub"
+            >(with an experience in Backend and Automation)</span
+          >
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/rajatkulkarni95"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/rajatkulkarni95/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:rajatkulkarni95@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <div class="arrow">
+          <a href="#Projects"><i class="fas fa-arrow-circle-down"></i></a>
+        </div>
+      </section>
+      <section class="about" id="About">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+          <p>
+            Hello! I'm Rajat, a software engineer based in Mumbai.
+          </p>
+          <p>
+            I am an experienced Robotic Process Automation (RPA) Consultant,
+            with over 3 years of experience delivering scalable, robust and
+            efficient solutions in multiple domains using Blue prism.
+          </p>
+          <p>
+            I currently work on the backend creating robust APIs using the Flask
+            Framework in Python.
+          </p>
+          <p>
+            My goal is to always build products that provide pixel-perfect,
+            performant experiences.
+          </p>
+          <p>
+            When not seen at work, you can find me watching Formula 1 or playing
+            Dota.
+          </p>
+          <p>Here are some of the skills I've worked on:</p>
+          <ul class="skills">
+            <li>Javascript (ES6+)</li>
+            <li>CSS3</li>
+            <li>React.js</li>
+            <li>HTML5</li>
+            <li>Python</li>
+            <li>Flask</li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects" id="Projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="card-container">
+          <img
+            src="./assets/ReActiveWeather.PNG"
+            class="screenshot"
+            alt="Reactive Weather App Screenshot"
+          />
+          <div class="description">
+            <h3 class="project-title">Re-Active Weather</h3>
+            <p class="text">
+              A beautiful, responsive weather app with the ability to output
+              results using location names or geolocation. Also stores your
+              favourited locations on the Local Storage.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/rajatkulkarni95/weather-app-react"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://re-active-weather.netlify.app/"
+                ><span class="app-links">Visit App</span></a
+              >
+            </div>
+            <div class="tech-stack">
+              <ul>
+                <li class="tech-stack__tools">React</li>
+                <li class="tech-stack__tools">Styled-Components</li>
+                <li class="tech-stack__tools">OpenWeather API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="description">
+            <h3 class="project-title">Country Database</h3>
+            <p class="text">
+              A pretty looking Country Finder that pull out data from an
+              external APIs and displays relevant information about all
+              countries. Responsive with Theme Switching.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/rajatkulkarni95/frontend-countries-challenge"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://whereintheworld-react.netlify.app/"
+                ><span class="app-links">Visit App</span></a
+              >
+            </div>
+            <div class="tech-stack">
+              <ul>
+                <li class="tech-stack__tools">React</li>
+                <li class="tech-stack__tools">React-Router</li>
+                <li class="tech-stack__tools">Styled-Components</li>
+                <li class="tech-stack__tools">RestCountries API</li>
+              </ul>
+            </div>
+          </div>
+          <img
+            src="./assets/WhereInTheWorld.PNG"
+            class="screenshot"
+            alt="WhereInTheWorld App Screenshot"
+          />
+        </div>
+        <div class="card-container">
+          <img
+            src="./assets/HackerNews Reader.PNG"
+            class="screenshot"
+            alt="HackerNews App Screenshot"
+          />
+          <div class="description">
+            <h3 class="project-title">HackerNews Reader</h3>
+            <p class="text">
+              HackerNews Anyone? This app fetches the Best, Top and New Stories
+              from HackerNews and displays it. Also features infinite scrolling!
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/rajatkulkarni95/hackernews-app"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://reacthackernews.netlify.app/"
+                ><span class="app-links">Visit App</span></a
+              >
+            </div>
+            <div class="tech-stack">
+              <ul>
+                <li class="tech-stack__tools">React</li>
+                <li class="tech-stack__tools">Styled-Components</li>
+                <li class="tech-stack__tools">HackerNews API</li>
+                <li class="tech-stack__tools">React Testing Library</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="description">
+            <h3 class="project-title">Quote Generator</h3>
+            <p class="text">
+              A beautiful simple random quote generator that fetches quotes from
+              an external API and displays it. You can also tweet the quote
+              directly from the App!
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/rajatkulkarni95/quote-generator"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://rajatkulkarni95.github.io/quote-generator/"
+                ><span class="app-links">Visit App</span></a
+              >
+            </div>
+            <div class="tech-stack">
+              <ul>
+                <li class="tech-stack__tools">HTML5</li>
+                <li class="tech-stack__tools">CSS3</li>
+                <li class="tech-stack__tools">Javascript (ES6)</li>
+              </ul>
+            </div>
+          </div>
+          <img
+            src="./assets/QuoteGenerator.PNG"
+            class="screenshot"
+            alt="Quote App Screenshot"
+          />
+        </div>
+      </section>
+      <section class="experience" id="Experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience__container">
+          <div class="experience-details" id="job-0">
+            <h3>KPMG India</h3>
+            <h4>Associate Consultant</h4>
+            <h5>Mar 2020 - Present</h5>
+            <div>
+              <ul>
+                <li>
+                  Helped setup an In-house Machine Learning store with various
+                  applications across domains.
+                </li>
+                <li>
+                  Built a Restful Back-end with the Flask Python Framework.
+                </li>
+                <li>
+                  Oversaw integration of Flask with an Angular front end, and
+                  SQL Database.
+                </li>
+                <li>
+                  Communicate with multi-disciplinary teams of engineers,
+                  designers, producers, and clients on a daily basis.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience-details" id="job-1">
+            <h3>Accenture India</h3>
+            <h4>Application Development Analyst</h4>
+            <h5>Sep 2017 - Feb 2020</h5>
+            <div>
+              <ul>
+                <li>
+                  Lead Business as Usual (BAU) operations under the RPA umbrella
+                  while also actively designing and developing standalone
+                  projects.
+                </li>
+                <li>
+                  Mentored new associates on projects wherein I designed the
+                  process flow.
+                </li>
+                <li>
+                  Worked on Robotic Process Automation projects to successfully
+                  deliver products that saved thousands of manual hours of work
+                  time.
+                </li>
+                <li>
+                  Implemented and followed Agile Methodology to deliver RPA
+                  projects to clients.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a class="resume_btn" href="./assets/Rajat's Resume.pdf" download
+        ><span>Resume</span></a
+      >
+      <div class="social-footer">
+        <div class="social-icons">
+          <a href="https://github.com/rajatkulkarni95"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/rajatkulkarni95/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:rajatkulkarni95@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <footer>
+        Built by Rajat Kulkarni
+        <a href="./assets/Rajat's Resume.pdf" class="source">View Source</a>
+      </footer>
+    </div>
+  </body>
+</html>
