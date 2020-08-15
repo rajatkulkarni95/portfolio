@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -31,8 +35,6 @@ body {
   background: linear-gradient(to left, #314558, #222831);
   color: #eeeeee;
   line-height: 1.5;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
 nav {
